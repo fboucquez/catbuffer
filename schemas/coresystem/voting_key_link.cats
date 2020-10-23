@@ -16,7 +16,7 @@ struct VotingKeyLinkTransactionBody
 
 # binary layout for a non-embedded voting key link transaction
 struct VotingKeyLinkTransaction
-	const uint8 version = 1
+	const uint8 version = 2
 	const EntityType entityType = 0x4143
 
 	inline Transaction
